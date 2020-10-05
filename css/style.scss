@@ -1,0 +1,213 @@
+// theme name : start themes
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+// .container{
+//     padding: auto 20px;
+// }
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background: url(../images/bg-pattern.png),linear-gradient(to left,#7b4397,#dc2430);
+    width: 100%;
+    height: 100%;
+    nav{
+        .navbar-brand{
+            color: #fdcc52;
+            
+            &:hover{
+                color: white;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    color: rgba(255,255,255,.7);
+                    font-size: .8rem;
+                    &:hover{
+                        color: white;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+    .banner{
+       display: block;
+        .banner__content{
+            h1{
+                font-size: 50px ;
+                color: white;
+            }
+            .btn-start{
+                .btn__btn-start{
+                    width: 200px;
+                    background: none;
+                    border: 1px solid #fff;
+                    border-radius: 24px;
+                    font-size: 11px;
+                    &:hover{
+                        background: #fdcc52;
+                    }
+                }
+            }
+        }
+        .phone{
+            img{
+                margin-left: 200px;
+                width: 300px;
+                height: 600px;
+            }
+            .background{
+                position: absolute;
+                margin-top: -531px;
+                margin-left: 20px;
+                img{
+                    width: 262px;
+                    height: 460px;
+                }
+            }
+        }
+       
+    }
+}
+.download{
+    background:#fdcc52;
+    .download__content{
+
+    }
+    .download__images{
+        img{
+            margin: auto 15px;
+      
+        }
+        img:first-child{
+            height: 80px;
+        }
+       
+    }
+}
+.detail{
+    .line-space{
+        margin-top: 30px;
+        width: 200px;
+        height: 1px;
+        background: rgb(141, 141, 141);
+    }
+    .phone{
+        .bg-screen{
+            top: 0;
+            position: absolute;
+            margin-top: 80px;
+            margin-left: 22px;
+            width: 308px;
+        }
+    }
+    .icon{
+
+        text-align: center;
+        i{
+            font-size: 80px;
+            margin-top: 150px;
+            color:#dc2430;
+         }
+         h5{
+             margin-top: 10px;
+         }
+    }
+   
+   
+}
+.start-building{
+    // background: url(../images/bg-cta.jpg);
+    margin-top: 100px;
+    .building__content{
+        position: absolute;
+        z-index: 999;
+        margin-top: 100px;
+        margin-left: 100px;
+        color: white;
+        h1{
+            font-size: 70px;
+        }
+        .btn-outline-primary{
+            margin-top: 20px;
+            color: white;
+            border: 1px solid white;
+            border-radius: 50px;
+           &:hover{
+            background: #ffc107;
+           }
+        }
+    }
+    img{
+        opacity: 0.3 #333;
+        width: 100%;
+        height: 500px;
+    }
+    
+}
+.contact{
+    background: #fdcc52;
+    background: linear-gradient(#fdcc52,#fdc539);
+    .contact__content{
+        h1{
+            margin-top: 50px;
+        }
+    }
+    .fa-heart{
+        color: #dc3545;
+    }
+    .contact__icon{
+        i{
+            font-size: 70px;
+            margin: auto 20px;
+            margin-bottom: 50px;
+        }
+        i.fa-twitter{
+            color: #17a2b8;
+        }
+        i.fa-facebook{
+            color: #344E86;
+        }
+        i.fa-google-plus{
+            color: #dc3545;
+        }
+    }
+}
+.footer{
+    overflow: hidden;
+    background: #222222;
+    h5{
+        color: white;
+        font-size: 10px;
+        color: rgb(97, 97, 97);
+        margin-top: 30px;
+    }
+    ul{
+        
+        li{
+            margin-bottom: 30px;
+            margin: auto 10px;
+            a{
+                color: rgb(97, 97, 97);
+                font-size: 10px;
+                text-decoration: none;
+                transition: all 1s ease-in;
+                &:hover{
+                    color: #fdcc52;
+                }
+            }
+        }
+    }
+}
