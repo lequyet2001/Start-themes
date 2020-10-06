@@ -120,6 +120,10 @@ a{
             font-size: 80px;
             margin-top: 150px;
             color:#dc2430;
+            transition: all 2s ease-in;
+            &:hover{
+                transform: scale(1.2);
+            }
          }
          h5{
              margin-top: 10px;
@@ -173,6 +177,10 @@ a{
             font-size: 70px;
             margin: auto 20px;
             margin-bottom: 50px;
+            transition: all 2s ease-in-out;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
         i.fa-twitter{
             color: #17a2b8;
@@ -208,6 +216,27 @@ a{
                     color: #fdcc52;
                 }
             }
+        }
+    }
+}
+@media only screen and (max-width:375px){
+    .header .banner .banner__content h1 {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+    }
+    .header .banner .phone img {
+        margin-top: 30px;
+        margin-left: -30px;
+        width: 300px;
+        height: 600px;
+    }
+    .btn-start{
+        text-align: center;
+    }
+    .start-building{
+        .building__content{
+            margin-top: -10px;
         }
     }
 }

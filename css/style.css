@@ -110,6 +110,13 @@ a {
   font-size: 80px;
   margin-top: 150px;
   color: #dc2430;
+  -webkit-transition: all 2s ease-in;
+  transition: all 2s ease-in;
+}
+
+.detail .icon i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .detail .icon h5 {
@@ -167,6 +174,13 @@ a {
   font-size: 70px;
   margin: auto 20px;
   margin-bottom: 50px;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.contact .contact__icon i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .contact .contact__icon i.fa-twitter {
@@ -208,6 +222,26 @@ a {
 
 .footer ul li a:hover {
   color: #fdcc52;
+}
+
+@media only screen and (max-width: 375px) {
+  .header .banner .banner__content h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+  .header .banner .phone img {
+    margin-top: 30px;
+    margin-left: -30px;
+    width: 300px;
+    height: 600px;
+  }
+  .btn-start {
+    text-align: center;
+  }
+  .start-building .building__content {
+    margin-top: -10px;
+  }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
