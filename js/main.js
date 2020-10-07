@@ -13,7 +13,7 @@ function myFunction() {
         color_text_contact.style.color = "black";
     } else {
         navigation.classList.remove("scrollHeader");
-        color_text.style.color = "rgba(255,255,255,.7)";
+        color_text_download.style.color = "rgba(255,255,255,.7)";
         color_text_features.style.color = "rgba(255,255,255,.7)";
         color_text_contact.style.color = "rgba(255,255,255,.7)";
     }
