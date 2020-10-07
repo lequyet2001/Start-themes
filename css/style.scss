@@ -19,6 +19,14 @@ a{
 body{
     overflow-x: hidden;
 }
+.scrollHeader{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 9999999999;
+    transition: all 1.5s ease-in-out;
+    background-color: white;
+}
 .header{
     background: url(../images/bg-pattern.png),linear-gradient(to left,#7b4397,#dc2430);
     width: 100%;

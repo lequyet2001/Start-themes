@@ -17,6 +17,16 @@ body {
   overflow-x: hidden;
 }
 
+.scrollHeader {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 9999999999;
+  -webkit-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+  background-color: white;
+}
+
 .header {
   background: url(../images/bg-pattern.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
   background: url(../images/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
