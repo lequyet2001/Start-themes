@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   background: url(../images/bg-pattern.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
   background: url(../images/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);

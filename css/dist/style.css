@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   background: url(../images/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
   width: 100%;
