@@ -1,5 +1,7 @@
 "use strict";
 
+alert("xin chafo");
+
 window.onscroll = function () {
   myFunction();
 };

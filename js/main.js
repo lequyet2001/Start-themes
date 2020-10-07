@@ -1,3 +1,4 @@
+alert("xin chafo")
 window.onscroll = function () { myFunction() }
 let navigation = document.getElementById("navigation");
 let scrollHeader = navigation.offsetTop;
