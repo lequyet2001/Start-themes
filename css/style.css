@@ -308,8 +308,7 @@ body {
   }
   .banner .phone .background {
     position: absolute;
-    margin-top: -531px;
-    margin-left: 20px;
+    left: 0;
   }
   .banner .phone .background img {
     width: 262px;
