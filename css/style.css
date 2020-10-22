@@ -263,75 +263,9 @@ body {
   color: #fdcc52;
 }
 
-@media only screen and (max-width: 375px) {
-  .header .banner .banner__content h1 {
-    font-size: 50px;
-    color: white;
-    text-align: center;
-  }
-  .header .banner .phone img {
-    margin-top: 30px;
-    margin-left: -30px;
-    width: 300px;
-    height: 600px;
-  }
-  .btn-start {
-    text-align: center;
-  }
-  .start-building .building__content {
-    margin-top: -10px;
-  }
-}
-
-@media only screen and (min-width: 425px) and (max-width: 767px) {
-  .header .banner .banner__content h1 {
-    font-size: 50px;
-    color: white;
-    text-align: center;
-  }
-  .header .banner .phone img {
-    margin-top: 30px;
-    margin-left: 35px;
-    width: 300px;
-    height: 600px;
-  }
-  .btn-start {
-    text-align: center;
-  }
-  .detai .detail__phone .detail__background img {
-    margin-top: 120px;
-    margin-left: 32px;
-    width: 450px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  .header .banner .banner__content h1 {
-    font-size: 50px;
-    color: white;
-    text-align: center;
-  }
-  .header .banner .phone img {
-    margin-top: 30px;
-    margin-left: 125px;
-    width: 300px;
-    height: 600px;
-  }
-  .btn-start {
-    text-align: center;
-  }
-  .detai .detail__phone .detail__background img {
-    margin-top: 160px;
-    margin-left: 32px;
-    width: 620px;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .detai .detail__phone .detail__background img {
-    margin-top: 65px;
-    margin-left: 18px;
-    width: 260px;
-  }
-}
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=style.css.map */
