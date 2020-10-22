@@ -375,6 +375,8 @@ body{
              }
          }
          .phone{
+             display: flex;
+             justify-content: center;
              img{
                  margin-left: 50px;
                  width: 300px;

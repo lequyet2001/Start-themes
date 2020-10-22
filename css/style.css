@@ -293,6 +293,14 @@ body {
   .banner .banner__content .btn-start .btn__btn-start:hover {
     background: #fdcc52;
   }
+  .banner .phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .banner .phone img {
     margin-left: 50px;
     width: 300px;
