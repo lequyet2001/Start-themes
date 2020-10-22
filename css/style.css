@@ -302,9 +302,9 @@ body {
             justify-content: center;
   }
   .banner .phone img {
-    margin-left: 50px;
     width: 200px;
     height: 500px;
+    left: 0;
   }
   .banner .phone .background {
     position: absolute;
