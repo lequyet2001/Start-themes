@@ -264,6 +264,23 @@ body {
 }
 
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .phone img {
+    margin-left: 50px;
+    width: 300px;
+    height: 600px;
+  }
+  .phone .background {
+    position: absolute;
+    margin-top: -531px;
+    margin-left: 20px;
+  }
+  .phone .background img {
+    width: 262px;
+    height: 460px;
+  }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
