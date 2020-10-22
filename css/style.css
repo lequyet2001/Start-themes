@@ -276,6 +276,9 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .banner .banner__content {
+    text-align: center;
+  }
   .banner .banner__content h1 {
     font-size: 50px;
     color: white;
