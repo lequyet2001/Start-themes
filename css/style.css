@@ -77,9 +77,7 @@ body {
 }
 
 .header .banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 .header .banner .banner__content h1 {
@@ -265,60 +263,75 @@ body {
   color: #fdcc52;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .banner {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .banner .banner__content {
-    text-align: center;
-  }
-  .banner .banner__content h1 {
+@media only screen and (max-width: 375px) {
+  .header .banner .banner__content h1 {
     font-size: 50px;
     color: white;
+    text-align: center;
   }
-  .banner .banner__content .btn-start .btn__btn-start {
-    width: 200px;
-    background: none;
-    border: 1px solid #fff;
-    border-radius: 24px;
-    font-size: 11px;
+  .header .banner .phone img {
+    margin-top: 30px;
+    margin-left: -30px;
+    width: 300px;
+    height: 600px;
   }
-  .banner .banner__content .btn-start .btn__btn-start:hover {
-    background: #fdcc52;
+  .btn-start {
+    text-align: center;
   }
-  .banner .phone {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 100%;
-  }
-  .banner .phone img {
-    width: 200px;
-    height: 500px;
-    margin-left: -200px;
-  }
-  .banner .phone .background {
-    position: absolute;
-    left: 0;
-  }
-  .banner .phone .background img {
-    width: 262px;
-    height: 460px;
+  .start-building .building__content {
+    margin-top: -10px;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* Medium devices (landscape tablets, 768px and up) */
-/* Large devices (laptops/desktops, 992px and up) */
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .header .banner .banner__content h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+  .header .banner .phone img {
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 300px;
+    height: 600px;
+  }
+  .btn-start {
+    text-align: center;
+  }
+  .detai .detail__phone .detail__background img {
+    margin-top: 120px;
+    margin-left: 32px;
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .header .banner .banner__content h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+  .header .banner .phone img {
+    margin-top: 30px;
+    margin-left: 125px;
+    width: 300px;
+    height: 600px;
+  }
+  .btn-start {
+    text-align: center;
+  }
+  .detai .detail__phone .detail__background img {
+    margin-top: 160px;
+    margin-left: 32px;
+    width: 620px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .detai .detail__phone .detail__background img {
+    margin-top: 65px;
+    margin-left: 18px;
+    width: 260px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
